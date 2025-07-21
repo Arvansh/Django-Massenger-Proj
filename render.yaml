@@ -1,0 +1,9 @@
+services:
+- type: web
+  name: django-web
+  runtime: python
+  buildCommand: pip install -r requirements.txt
+  startCommand: gunicorn MessengerProj.wsgi:application
+  envVars:
+    - name: DJANGO_SETTINGS_MODULE
+      value: MessengerProj.settings
