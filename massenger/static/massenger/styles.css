@@ -1,0 +1,96 @@
+body {
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+}
+
+.auth-page, .chat-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-box{
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-box input{
+  width: 100%;
+  padding: 12px;
+  margin:10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.form-box button{
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+.chat-container{
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  height: 90vh;
+}
+
+.user-list{
+  width: 25%;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.messages {
+  flex-grow:1;
+  overflow-y: auto;
+  padding: 5px 10px;
+  max-width: 70%;
+  width: 500px;
+  min-width: 200px;
+  height: 90vh;
+}
+
+.sent {
+  text-align: right;
+  background: #daf1da;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.recieved{
+  text-align: left;
+  background: #fff;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.message-form{
+  display:flex
+}
+
+.message-form input{
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+}
+
+.message-form button {
+  padding: 10px 20px;
+  border-radius: 0 8px 8px 0;
+  border: none;
+  background: #007bff;
+  color: #fff;
+}
