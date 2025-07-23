@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('django-insecure-9*43m!hu(1ivstt!-lk%4^a6pq0l(8z0eu%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['massenger.onrender.com']
+ALLOWED_HOSTS = [os.environ.get('massenger.onrender.com','127.0.0.1')]
 
 
 # Application definition
