@@ -66,7 +66,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR / 'massenger' / 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'massenger', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
