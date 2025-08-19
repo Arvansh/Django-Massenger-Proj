@@ -12,9 +12,9 @@
     <h2>Sign up to Massenger</h2>
     <form method="POST">
       {% csrf_token %}
-      <input type="text" name="username" placeholder="Username" required>
+    <!--  <input type="text" name="username" placeholder="Username" required>
       <input type="password" name="password" placeholder="Password" required>
-     <!-- {{ form.as_p }}-->
+   -->  {{ form.as_p }}
       <button type="submit">Sign Up</button>
     </form>
   </div>
