@@ -145,3 +145,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
     },
 }"""
     
+CSRF_TRUSTED_ORIGINS = ["https://massenger.onrender.com"]
